@@ -7,11 +7,12 @@ def exibir_menu():
     print("5 - Sair")
 
 def cadastrar_aluno():
-    print("Vai salvar esse aluno em um arquivo no formado JSON")
+    print("Vai salvar esse aluno no formado JSON em um arquivo")
     # Fazer uma exception para verificar se o CPF tem 11 digitos.
     # Opcional: Para bater as paradas: Validar o email, para verificar.
 
 while True:
     exibir_menu()
     escolha = input()
-    if escolha == 1:
+    if escolha == "1":
+        cadastrar_aluno()
